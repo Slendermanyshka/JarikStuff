@@ -37,6 +37,7 @@
 }
 .header-h2 a:hover{
     color: black;
+    transition: $animation;
 }
 .head-ul{
     background-color: aliceblue;
@@ -56,4 +57,5 @@
 .head-item:hover{
     border-top:  solid #76c1f7;
     color: #76c1f7;
+    transition: $animation;
 }
