@@ -25,6 +25,7 @@ ul {
 
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 a {
@@ -38,10 +39,6 @@ a {
   margin-bottom: 20px;
 }
 
-.section:first-child {
-  margin-bottom: 0;
-}
-
 .section:last-child {
   margin-bottom: 0;
 }
@@ -51,8 +48,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
   margin-bottom: 20px;
   border-bottom: 2px solid lightgray;
+}
+
+.head-section {
+  width: 949px;
+  margin: auto;
 }
 
 .header-inner-container {
@@ -113,6 +116,72 @@ a {
   transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.history-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.history-image {
+  background-image: url(../../images/2.jpg);
+  width: 100%;
+  height: 542px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.history-image:hover {
+  background-image: linear-gradient(to top, rgba(163, 164, 175, 0.4), rgba(163, 164, 175, 0.4)), url(../../images/2.jpg);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.history-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #233340;
+  color: white;
+  padding: 5px 15px;
+  font: normal 20px "Open Sans", Arial, Tahoma, sans-serif;
+}
+
+.important-info-tab {
+  font-size: 14px;
+  font-weight: bold;
+  color: #4496d2;
+  cursor: default;
+  transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.important-info-tab:hover {
+  color: #878787;
+  transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.generic-item {
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+}
+
+.generic-item:hover {
+  background-color: #4496d2;
+  color: white;
+}
+
+.generic-list-link {
+  padding: 15px 10px;
+  display: block;
+  color: #5D6F8D;
+  width: 100%;
+  height: 100%;
+}
+
+.generic-list-link:hover {
+  color: white;
+  transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer {
   margin-top: 15px;
   background-image: linear-gradient(rgb(52, 57, 60) 0%, rgb(52, 57, 60) 50%, rgb(38, 42, 45) 50%, rgb(38, 42, 45) 100%);
@@ -135,4 +204,12 @@ a {
 
 .footer-media-item:first-child {
   margin-right: 10px;
+}
+
+.footer-icon {
+  fill: white;
+}
+
+.footer-icon:hover {
+  fill: #4496d2;
 }/*# sourceMappingURL=main.css.map */

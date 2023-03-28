@@ -1,0 +1,26 @@
+.history-container{
+    position: relative;
+    overflow: hidden;
+}
+.history-image{
+    background-image: url(../../images/2.jpg);
+    width: 100%;
+    height: 542px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.history-image:hover{
+    background-image: linear-gradient(to top, rgba(163, 164, 175, 0.4), rgba(163, 164, 175, 0.4)),url(../../images/2.jpg);
+    transition: $picture-anim;
+}
+.history-text{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #233340;
+    color: white;
+    padding: 5px 15px;
+    font: normal 20px "Open Sans", Arial, Tahoma, sans-serif;
+}

@@ -3,11 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    height: 100%;
     margin-bottom: 20px;
     border-bottom: 2px solid lightgray;
 }
-
+.head-section{
+    width: 949px;
+    margin: auto;
+}
 .header-inner-container{
     background-color: aliceblue;
     display: flex;

@@ -1,0 +1,12 @@
+.important-info-tab{
+    font-size: 14px;
+    font-weight: bold;
+    color: #4496d2;
+    cursor: default;
+    transition: $animation;
+
+}
+.important-info-tab:hover{
+    color: #878787;
+    transition: $animation;
+}
