@@ -1,32 +1,3 @@
-.header {
-  background-color: #4496d2;
-  display: flex;
-  justify-content: center;
-}
-
-.header-inner-container {
-  background-color: aliceblue;
-  display: flex;
-  font-weight: 600;
-  font-size: 22px;
-}
-
-.head-ul {
-  background-color: aliceblue;
-  display: flex;
-  justify-content: center;
-  font-size: 13px;
-}
-
-.head-item {
-  padding-inline: 10px;
-  padding-block: 20px;
-}
-
-.head-item:hover {
-  background-color: #4496d2;
-}
-
 p,
 ul,
 li,
@@ -56,6 +27,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .section {
   width: 949px;
   margin: auto;
@@ -68,4 +44,93 @@ body {
 
 .section:last-child {
   margin-bottom: 0;
+}
+
+.header {
+  background-color: #4496d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid lightgray;
+}
+
+.header-inner-container {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-h1 {
+  text-align: center;
+  font-family: "Open Sans", Tahoma, serif;
+  font-weight: 600;
+  line-height: normal;
+  color: #5d6f8d;
+  font-size: 42px;
+}
+
+.header-h2 {
+  text-align: center;
+  font-family: "Open Sans", Tahoma, serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 22px;
+  margin-top: 15px;
+}
+
+.header-h2 a {
+  color: #00adee;
+}
+
+.header-h2 a:hover {
+  color: black;
+}
+
+.head-ul {
+  background-color: aliceblue;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.head-item {
+  padding-inline: 10px;
+  padding-block: 20px;
+  color: #6f6b6b;
+  border: 3px solid aliceblue;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.head-item:hover {
+  border-top: solid #76c1f7;
+  color: #76c1f7;
+}
+
+.footer {
+  margin-top: 15px;
+  background-image: linear-gradient(rgb(52, 57, 60) 0%, rgb(52, 57, 60) 50%, rgb(38, 42, 45) 50%, rgb(38, 42, 45) 100%);
+}
+
+.footer-section {
+  height: 180px;
+  background-color: #43494c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 20px 10px 20px;
+  color: white;
+  font: normal 13px/22px "Open Sans", Arial, Tahoma, sans-serif;
+}
+
+.footer-media-list {
+  display: flex;
+}
+
+.footer-media-item:first-child {
+  margin-right: 10px;
 }/*# sourceMappingURL=main.css.map */
