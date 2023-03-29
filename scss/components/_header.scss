@@ -71,8 +71,35 @@
     color: #76c1f7;
     transition: $animation;
 }
+.head-item:hover .submenu{
+    display: block;
+
+    transition: $transform-move $animation;
+}
 
 .head-item-submenu{
     display: none;
     border-left: #76c1f7;
+}
+
+.submenu{
+ width: 400px;
+ display: none;
+ position: absolute;
+ background-color: whitesmoke;
+ border-radius: 3px;
+ border-left: 3px solid #76c1f7;
+ transform: translateY(0%);
+ transition: all .25s ease;
+ top: 100;
+ left: 0;
+ z-index: 10;
+}
+.submenu-item{
+    color: #6f6b6b;
+    padding: 10px 15px;
+}
+.submenu-item:hover{
+    color: #76c1f7;
+    transition: $animation;
 }
