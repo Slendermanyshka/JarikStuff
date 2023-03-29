@@ -52,13 +52,27 @@
 .head-item{
     padding-inline: 10px;
     padding-block: 20px;
-    color: #6f6b6b;
     border: 3px solid aliceblue;
     border-radius: 3px;
     cursor: pointer;
+    position: relative;
 }
 .head-item:hover{
     border-top:  solid #76c1f7;
     color: #76c1f7;
     transition: $animation;
+}
+.head-item a{
+    box-sizing: border-box;
+    color: #6f6b6b;
+
+}
+.head-item a:hover{
+    color: #76c1f7;
+    transition: $animation;
+}
+
+.head-item-submenu{
+    display: none;
+    border-left: #76c1f7;
 }

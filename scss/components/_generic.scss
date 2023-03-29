@@ -1,0 +1,44 @@
+.generic-span{
+font-family: "Open Sans", Tahoma, serif;
+font-weight: 600;
+font-size: 18px;
+padding: 0 0 0 40px;
+color: #464242;
+text-shadow: 0 0 10px #FFFFFF, 0 0 10px #FFFFFF, 0 0 10px #FFFFFF, 0 0 10px #FFFFFF;
+}
+.generic-h3{
+    font-family: "Open Sans", Tahoma, serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 0 0 40px;
+    color: #464242;
+    text-shadow: 0 0 10px #FFFFFF, 0 0 10px #FFFFFF, 0 0 10px #FFFFFF, 0 0 10px #FFFFFF;
+    }
+.generic-big-tab-text{
+    margin-block: 20px;
+    font-family: cambria, serif;
+    line-height: 14px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #5D6F8D;
+    cursor: default;
+    padding-block: 20px;
+    transition: $animation;
+}
+.generic-big-tab-text:hover{
+    color: #4496d2;
+    transition: $animation;
+}
+
+.generic-tab-text{
+        padding-block: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #878787;
+        cursor: default;
+        transition: $animation; 
+}
+.generic-tab-text:hover{
+        color: #4496d2;
+        transition: $animation;
+}
